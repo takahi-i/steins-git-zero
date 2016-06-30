@@ -1,7 +1,8 @@
-# Re:VIEW boilerplate
+# Steins;Git 0
 
-Re:VIEWビルド + RedPenによるテスト + Travis CIによる継続的インテグレーション環境を構築できるリポジトリです。
-Node.jsとRuby + Bundlerのインストールが必要です。
+*これは、Git + GitHubでSteins;Gateを説明する物語。*
+
+シュタインズ・ギットの正統続編。
 
 ## 準備
 
@@ -13,7 +14,7 @@ npm run setup
 
 ```shell
 npm run web
-open articles/webroot/index.html
+open articles/book/index.html
 ```
 
 ## PDFを出力する
