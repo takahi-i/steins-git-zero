@@ -1,0 +1,29 @@
+{
+  "name": "review-boilerplate",
+  "version": "0.1.0",
+  "description": "Re:VIEW boilerplate",
+  "scripts": {
+    "test": "gulp redpen",
+    "setup": "bundle install --path vendor/bundle && npm install && ./bin/setup-redpen.sh 1.6.2",
+    "deploy": "gulp deploy",
+    "clean": "gulp clean",
+    "pdf": "gulp pdf",
+    "web": "gulp web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:kubosho/review-boilerplate.git"
+  },
+  "keywords": [
+    "book",
+    "re:view"
+  ],
+  "author": "kubosho",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-exec": "^2.1.2"
+  }
+}
